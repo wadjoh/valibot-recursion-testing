@@ -1,0 +1,16 @@
+{
+  "name": "valibot-testing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npm run build && node ./dist/main.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "valibot": "0.34.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
